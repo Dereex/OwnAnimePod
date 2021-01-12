@@ -14,6 +14,7 @@
 		B30275BB25ADF8AB006C7456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30275B925ADF8AB006C7456 /* Main.storyboard */; };
 		B30275BD25ADF8AE006C7456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30275BC25ADF8AE006C7456 /* Assets.xcassets */; };
 		B30275C025ADF8AE006C7456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30275BE25ADF8AE006C7456 /* LaunchScreen.storyboard */; };
+		B30275C825ADFC7D006C7456 /* OwnAnimePod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30275C725ADFC7D006C7456 /* OwnAnimePod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B30275BC25ADF8AE006C7456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30275BF25ADF8AE006C7456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B30275C125ADF8AE006C7456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30275C725ADFC7D006C7456 /* OwnAnimePod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnAnimePod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				B30275A425ADF564006C7456 /* OwnAnimePod.h */,
 				B30275A525ADF564006C7456 /* Info.plist */,
+				B30275C725ADFC7D006C7456 /* OwnAnimePod.swift */,
 			);
 			path = OwnAnimePod;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				TargetAttributes = {
 					B30275A025ADF564006C7456 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					B30275B025ADF8AB006C7456 = {
 						CreatedOnToolsVersion = 12.3;
@@ -199,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30275C825ADFC7D006C7456 /* OwnAnimePod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +364,7 @@
 		B30275AA25ADF564006C7456 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 84HCDR24QN;
@@ -376,6 +382,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -384,6 +391,7 @@
 		B30275AB25ADF564006C7456 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 84HCDR24QN;
