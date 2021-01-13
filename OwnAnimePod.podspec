@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "OwnAnimePod"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "One of the most cool anime pod"
 
   spec.description  = <<-DESC
